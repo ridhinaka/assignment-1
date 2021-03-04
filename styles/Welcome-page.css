@@ -1,0 +1,162 @@
+@font-face{
+  src: url(/Fonts/ProductSans-Bold.ttf);
+  font-family: product-bold;
+}
+@font-face{
+  src:url(/Fonts/ProductSans-Regular.ttf);
+  font-family:product-regular;
+}
+.wolf{
+  display: flex;
+  height: 20vh;
+  width:20%;
+  object-fit: contain;
+  position: absolute;
+  z-index: 99999;
+  margin-left:-170px;
+  margin-top: 10px;
+}
+.container{
+  margin-top: 10px;
+  z-index: 999;
+  position: relative;
+}
+.container .navbar-brand {
+  font-family: 'product-regular';
+  color: gray;
+  text-shadow: 1px 1px 1px white;
+  /* margin-left:-90px; */
+  font-size: 30px;  
+}
+
+.nav-link{
+  margin-right: 30px;
+  font-size: 17px;
+}
+
+.nav-link:hover::after{
+  content: '';
+  display: block;
+  border: teal solid 0.5px;
+}
+
+.jumbotron{
+    background-image: url(../Images/joker.png);
+    /* position: relative; */
+    height: 100%;
+    width: 100%;
+    background-size: contain;
+    margin-top:-82px;
+    position: relative;
+    /*
+ overflow-x: hidden; */
+}
+
+.jumbotron .display-4{
+  margin-top:420px;
+  margin-left: -80px;
+  color: gray;
+  text-shadow: 1px 1px 1px white;
+}
+.lead{
+  color: gray;
+  margin-left:-77px;
+  text-shadow: 1px 1px 1px white;
+}
+.jumbotron .container{
+  position: relative;
+  /* z-index: 99; */
+}
+.jumbotron::after{
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.7);
+  bottom: 0;
+  right: 0;
+  /* z-index: 9999; */
+  position: absolute;
+}
+
+
+.navbar{
+  /* z-index: 999; */
+}
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  z-index: 999;
+  border-radius:0px ;
+  /* justify-content: center;
+  align-items: center; */
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+  /* z-index: 999; */
+}
+.open-button{
+  display: flex;
+  /* background: chartreuse; */
+  margin-top: auto;
+  height: 5vh;
+  width: 70vh;
+  margin-top: 100px;
+  margin-left: -400px;
+  transform: rotate(-90deg);
+  z-index:99999;
+}
+
+.text-button{
+  display: flex;
+  /* background: aquamarine; */
+}
+h3{
+  font-size: 20px;
+  color: white;
+}
+
+.text-button:hover{
+  cursor: pointer;
+}
+
+.text-button::after{
+  content: '';
+  display: block;
+  border-bottom:solid aqua 2px ;
+  z-index: 9999999;
+}
+/* @media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+} */

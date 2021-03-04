@@ -1,0 +1,140 @@
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  /* background: chartreuse; */
+}
+.home-page{
+  display: flex;
+  flex-direction: row !important;
+  /* background: blue; */
+  border-bottom: 2px solid black;
+  /* position: fixed; */
+}
+
+.wolf{
+  display: flex;
+  object-fit: contain;
+  height: 10vh;
+  width: 10vh; 
+}
+.image-photo{
+  display: flex;
+  height: 40%;
+  width: 70%;
+  justify-content: center;
+  align-items: center;
+  /* background: chocolate; */
+}
+.photo{
+  height: 40%;
+  width: 80%;
+  display: flex;
+  object-fit: contain;
+  margin-top: 20px;
+
+}
+/* Body css */
+
+.body{
+  display: flex;
+  height: 35%;
+  width: 100%;
+  z-index: 99;
+  position: relative;
+  margin-top:-10px;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.colum{
+  box-shadow: 2px 2px 2px black;
+  /* margin-bottom:70px; */
+}
+.image{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+
+h2{
+  font-size: 15px;
+  background-color: white;
+}
+
+.text{
+  display: flex;
+  height: 50%;
+  /* background: coral; */
+  /* z-index: 99999; */
+  justify-content: center;
+  align-items: center;
+  margin-top:50px;
+  position: absolute;
+}
+
+h1{
+  text-align: center;
+}
+
+.profile{
+  display: flex;
+  object-fit: contain;
+  width: 10%;
+}
+
+.wrapper-img{
+  display: flex;
+  /* background:violet !important; */
+  width: 100%;
+  height: 250px;
+}
+.wrapper-text{
+  width: 100%;
+  height: 200px;
+}
+
+/* footer css */
+
+.footer-container{
+  display: flex;
+  background: cadetblue;
+  width:100%;
+  height: 5%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.image-wrapper{
+  display: flex;
+  /* background: cyan; */
+  /* margin: 50px; */
+  /* width: 100%; */
+}
+.fab{
+  transform: scale(2);
+  margin:20px ;
+}
+
+@media only screen and (min-width: 940px) {
+  .body{
+    display: flex;
+    height: 65%;
+    width: 100%;
+    z-index: 99;
+    position: relative;
+    margin-top:-10px;
+    justify-content: center;
+    /* align-items: center; */
+  }
+
+  .text{
+    margin-top: 100px;
+  }
+  .footer-container{
+    height: 20%;
+  }
+}

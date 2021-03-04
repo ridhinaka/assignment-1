@@ -1,0 +1,35 @@
+.jumbotron{
+  background-image: url(../Images/joker.png);
+  /* position: relative; */
+  height: 789px;
+  width: 100%;
+  background-size: cover;
+  margin-top:-82px;
+  position: relative;
+  /* overflow-x: hidden; */
+}
+
+.jumbotron .container{
+  position: relative;
+  z-index: 99;
+}
+
+.jumbotron .display-4{
+  margin-top:550px;
+  margin-left: -80px;
+}
+
+.jumbotron::after{
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  /* z-index: 9999; */
+  position: absolute;
+}
+
+.lead{
+  color: white;
+  margin-left: -70px;
+}

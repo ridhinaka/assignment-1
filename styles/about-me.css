@@ -1,0 +1,107 @@
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  /* background: chartreuse; */
+}
+.about-me{
+  display: flex;
+  flex-direction: row !important;
+  /* background: blue; */
+  border-bottom: 2px solid black;
+}
+.wolf{
+  display: flex;
+  object-fit: contain;
+  height: 10vh;
+  width: 10vh; 
+}
+.image-photo{
+  display: flex;
+  height: 40%;
+  width: 70%;
+  justify-content: center;
+  align-items: center;
+  /* background: chocolate; */
+}
+.photo{
+  height: 40%;
+  width: 80%;
+  display: flex;
+  object-fit: contain;
+  margin-top: 20px;
+
+}
+.table-wrapper{
+  display: flex;
+  height: 40%;
+  width: 70%;
+  justify-content: center;
+  align-items: center;
+  background: cyan;
+  margin-top: 30px;
+}
+table, th, td{
+  /* border: black solid 2px; */
+  text-align: left;
+  /* position: absolute; */
+}
+
+h5{
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+}
+h3{
+  font-size: 25px;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: bold;
+  margin-left: 15px;
+}
+
+h4{
+  font-size: 15px;
+  font-family: 'Noto Sans JP', sans-serif;
+  margin-left: 15px;
+}
+
+.content{
+  /* background: blue; */
+  width: 40%;
+  margin-left: 30px;  
+}
+
+
+p{
+  font-size: 15px;
+  text-align: justify;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.row{
+  border: solid 1px black;
+  margin-top:10px;
+  width: 73%;
+}
+
+h1{
+  font-size: 16px;
+  text-align: left;
+}
+
+h2{
+  font-size: 12px;
+  text-align: left;
+}
+
+h6{
+  font-size: 25px;
+}
+

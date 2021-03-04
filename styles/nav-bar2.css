@@ -1,0 +1,98 @@
+@font-face{
+  src: url(/Fonts/ProductSans-Bold.ttf);
+  font-family: product-bold;
+}
+@font-face{
+  src:url(/Fonts/ProductSans-Regular.ttf);
+  font-family:product-regular;
+}
+.container{
+  display: flex;
+  height: 100%;
+  width: 100%;
+  background: aqua;
+  overflow: hidden;
+  
+}
+.background{
+  display: flex;
+  height: 100%;
+  width: 100%;
+  background-image: url(../Images/joker.png);
+  flex-direction: column;
+  overflow: hidden;
+  background-size: contain;
+  /* position: fixed; */
+}
+.black{
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0,0,0,0.7);
+  /* position: fixed; */
+}
+.header{
+  display: flex;
+  height: 20%;
+  /* background: chartreuse; */
+  flex-direction: column;
+}
+.welcome{
+  display: flex;
+  /* background: red; */
+  justify-content: center;
+  align-items: center;
+  height: 30%;
+}
+
+h1{
+  text-shadow: 1px 1px white;
+}
+.nav-bar{
+  display: flex;
+  height: 20%;
+  width: 100%;
+  flex-direction: row;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
